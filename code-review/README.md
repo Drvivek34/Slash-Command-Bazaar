@@ -20,4 +20,6 @@ code-review/
 
 ## Entries
 
-_No entries yet — be the first to contribute!_
+| Entry | Description |
+|---|---|
+| [Review Command](review-command/) | Analyzes the current file or diff for logical errors, optimization opportunities, and security flaws. |

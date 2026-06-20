@@ -22,4 +22,5 @@ testing/
 
 | Entry | Description |
 |---|---|
+| [Test Command](test-command/) | Generates a complete test suite for the current file using standard testing frameworks (pytest, jest, mocha). |
 | [Unit Test Generator](unit-test-generator/) | A custom command that reads a source file and writes high-coverage unit tests using the matching testing framework. |

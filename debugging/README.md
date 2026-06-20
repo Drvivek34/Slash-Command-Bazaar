@@ -20,4 +20,6 @@ debugging/
 
 ## Entries
 
-_No entries yet — be the first to contribute!_
+| Entry | Description |
+|---|---|
+| [Debug Command](debug-command/) | Parses error logs or stack traces and proposes direct code fixes targeting the file where the exception occurred. |

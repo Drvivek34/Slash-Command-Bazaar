@@ -22,4 +22,5 @@ documentation/
 
 | Entry | Description |
 |---|---|
+| [Explain Command](explain-command/) | Scans functions/classes to add descriptive docstrings and writes a clean high-level architecture markdown summary. |
 | [Readme Builder](readme-builder/) | Command to read all project filenames and generate/update the project master README file with a sitemap. |
