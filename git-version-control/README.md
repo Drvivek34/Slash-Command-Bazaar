@@ -19,4 +19,7 @@ git-version-control/
 - Submit via the [submission form](https://github.com/Drvivek34/Slash-Command-Bazaar/issues/new/choose).
 
 ## Entries
-_No entries yet — be the first to contribute!_
+
+| Entry | Description |
+|---|---|
+| [Commit Helper](commit-helper/) | A custom command that checks the git diff and generates structured conventional commit messages. |

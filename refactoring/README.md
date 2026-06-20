@@ -19,4 +19,7 @@ refactoring/
 - Submit via the [submission form](https://github.com/Drvivek34/Slash-Command-Bazaar/issues/new/choose).
 
 ## Entries
-_No entries yet — be the first to contribute!_
+
+| Entry | Description |
+|---|---|
+| [Code Refactor Helper](code-refactor-helper/) | Command to analyze code style, performance, and formatting, suggesting drop-in replacements for anti-patterns. |

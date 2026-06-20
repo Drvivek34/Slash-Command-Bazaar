@@ -19,4 +19,7 @@ documentation/
 - Submit via the [submission form](https://github.com/Drvivek34/Slash-Command-Bazaar/issues/new/choose).
 
 ## Entries
-_No entries yet — be the first to contribute!_
+
+| Entry | Description |
+|---|---|
+| [Readme Builder](readme-builder/) | Command to read all project filenames and generate/update the project master README file with a sitemap. |

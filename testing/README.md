@@ -19,4 +19,7 @@ testing/
 - Submit via the [submission form](https://github.com/Drvivek34/Slash-Command-Bazaar/issues/new/choose).
 
 ## Entries
-_No entries yet — be the first to contribute!_
+
+| Entry | Description |
+|---|---|
+| [Unit Test Generator](unit-test-generator/) | A custom command that reads a source file and writes high-coverage unit tests using the matching testing framework. |
