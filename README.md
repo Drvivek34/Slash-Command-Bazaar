@@ -1,4 +1,4 @@
-# 🛒 Slash Command Bazaar
+# ⚡ Slash Command Bazaar
 
 > A collection of slash commands for Claude Code and other AI CLIs.
 
