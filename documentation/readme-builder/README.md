@@ -9,7 +9,7 @@ Command to read all project filenames and generate/update the project master REA
 - **Source URL**: [https://github.com/anthropics/claude-code](https://github.com/anthropics/claude-code)
 - **Author**: Claude Code Custom Commands
 - **License**: MIT
-- **Date Added**: 2026-06-20
+- **Date Added**: 2026-06-21
 
 ## Command Instruction
 ```markdown

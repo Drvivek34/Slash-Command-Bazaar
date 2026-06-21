@@ -9,7 +9,7 @@ A custom command that checks the git diff and generates structured conventional 
 - **Source URL**: [https://github.com/anthropics/claude-code](https://github.com/anthropics/claude-code)
 - **Author**: Claude Code Community
 - **License**: MIT
-- **Date Added**: 2026-06-20
+- **Date Added**: 2026-06-21
 
 ## Command Instruction
 ```markdown
