@@ -22,5 +22,5 @@ refactoring/
 
 | Entry | Description |
 |---|---|
-| [Code Refactor Helper](code-refactor-helper/) | Command to analyze code style, performance, and formatting, suggesting drop-in replacements for anti-patterns. |
-| [Optimize Performance](optimize-performance/) | Analyzes the selected code block for performance bottlenecks (memory allocations, quadratic loops) and provides an optimized version. |
+| [Code quality & refactor helper (/refactor)](code-refactor-helper/) | Command to analyze code style, performance, and formatting, suggesting drop-in replacements for anti-patterns. |
+| [Optimize Performance (/optimize)](optimize-performance/) | Analyzes the selected code block for performance bottlenecks (memory allocations, quadratic loops) and provides an optimized version. |

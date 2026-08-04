@@ -22,4 +22,4 @@ code-review/
 
 | Entry | Description |
 |---|---|
-| [Review Command](review-command/) | Analyzes the current file or diff for logical errors, optimization opportunities, and security flaws. |
+| [/review Code Review Command](review-command/) | Analyzes the current file or diff for logical errors, optimization opportunities, and security flaws. |

@@ -22,4 +22,4 @@ debugging/
 
 | Entry | Description |
 |---|---|
-| [Debug Command](debug-command/) | Parses error logs or stack traces and proposes direct code fixes targeting the file where the exception occurred. |
+| [/debug Log Analyzer Command](debug-command/) | Parses error logs or stack traces and proposes direct code fixes targeting the file where the exception occurred. |

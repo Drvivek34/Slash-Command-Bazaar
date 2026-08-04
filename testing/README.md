@@ -22,5 +22,6 @@ testing/
 
 | Entry | Description |
 |---|---|
-| [Test Command](test-command/) | Generates a complete test suite for the current file using standard testing frameworks (pytest, jest, mocha). |
-| [Unit Test Generator](unit-test-generator/) | A custom command that reads a source file and writes high-coverage unit tests using the matching testing framework. |
+| [TDD red-green-refactor loop (/tdd)](tdd-red-green-refactor/) | A compact command that turns a feature or bug fix into a test-first red-green-refactor cycle with explicit evidence at each stage. |
+| [/test Test Case Generator Command](test-command/) | Generates a complete test suite for the current file using standard testing frameworks (pytest, jest, mocha). |
+| [Unit test generator (/test)](unit-test-generator/) | A custom command that reads a source file and writes high-coverage unit tests using the matching testing framework. |

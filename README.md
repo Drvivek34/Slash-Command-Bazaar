@@ -6,6 +6,10 @@
 
 Slash Command Bazaar collects **slash commands** — reusable `/command` definitions for Claude Code and other AI coding CLIs — into one categorized set. The handiest commands are surfaced in **featured/**.
 
+## 🔄 Current snapshot
+- **7 maintained commands** are indexed with target tool, source, author, license, date added, and last-reviewed date.
+- Refreshed **2026-08-04** with review-comment triage, CI workflow maintenance, and TDD loop commands adapted from current GitHub Copilot community sources.
+
 ## 📂 Categories
 
 **[⭐ Featured](featured/)** — top picks, surfaced at the very front.

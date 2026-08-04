@@ -20,4 +20,7 @@ devops-cicd/
 
 ## Entries
 
-_No entries yet — be the first to contribute!_
+| Entry | Description |
+|---|---|
+| [CI workflow expert (/ci-sweep)](ci-workflow-sweep/) | A maintenance command for inspecting GitHub Actions failures, checking workflow drift, and preparing a minimal verified fix. |
+| [/glm](glm/) | Slash command + skill for **Databricks GLM** local patch proxy (full tool calling with Grok and other agents). |

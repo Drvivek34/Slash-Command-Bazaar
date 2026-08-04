@@ -22,4 +22,4 @@ security/
 
 | Entry | Description |
 |---|---|
-| [Security Auditor](security-auditor/) | A custom slash command that scans code files for vulnerability vectors (secrets, injections, XSS) and proposes direct mitigation fixes. |
+| [Security Auditor (/audit)](security-auditor/) | A custom slash command that scans code files for vulnerability vectors (secrets, injections, XSS) and proposes direct mitigation fixes. |

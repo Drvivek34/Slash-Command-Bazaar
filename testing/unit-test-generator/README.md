@@ -9,7 +9,8 @@ A custom command that reads a source file and writes high-coverage unit tests us
 - **Source URL**: [https://github.com/cursor-ai/cursor](https://github.com/cursor-ai/cursor)
 - **Author**: Cursor Rules Community
 - **License**: MIT
-- **Date Added**: 2026-06-21
+- **Date Added**: 2026-08-04
+- **Last Reviewed**: 2026-08-04
 
 ## Command Instruction
 ```markdown

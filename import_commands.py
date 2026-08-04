@@ -2,8 +2,9 @@
 import os
 import re
 from datetime import datetime
+from pathlib import Path
 
-SC_BAZAAR_DIR = "/root/bazaars/Slash-Command-Bazaar"
+SC_BAZAAR_DIR = str(Path(__file__).resolve().parent)
 
 CURATED_COMMANDS = [
     {
@@ -45,6 +46,36 @@ CURATED_COMMANDS = [
         "author": "Claude Code Custom Commands",
         "source": "https://github.com/anthropics/claude-code",
         "instructions": "List directories and files recursively up to depth 3, read package.json or metadata files, and construct a comprehensive README.md file highlighting setup, usage, directory structure, and developer guidelines."
+    },
+    {
+        "name": "Address review comments (/address-comments)",
+        "slug": "address-review-comments",
+        "category": "project-management",
+        "desc": "A review-loop command that gathers unresolved comments, maps each to the current diff, and proposes or applies bounded fixes with verification.",
+        "tool": "GitHub Copilot / Claude Code",
+        "author": "GitHub Copilot community (adapted)",
+        "source": "https://github.com/github/awesome-copilot/blob/main/agents/address-comments.agent.md",
+        "instructions": "Collect the unresolved review comments for the active change. Group duplicates, identify the exact files and behavior each comment refers to, and state the smallest compliant fix. Apply only in-scope changes, run the relevant tests or checks, and report which comments were resolved, deferred, or require reviewer clarification."
+    },
+    {
+        "name": "CI workflow expert (/ci-sweep)",
+        "slug": "ci-workflow-sweep",
+        "category": "devops-cicd",
+        "desc": "A maintenance command for inspecting GitHub Actions failures, checking workflow drift, and preparing a minimal verified fix.",
+        "tool": "GitHub Copilot / Claude Code",
+        "author": "GitHub Copilot community (adapted)",
+        "source": "https://github.com/github/awesome-copilot/blob/main/agents/github-actions-expert.agent.md",
+        "instructions": "Inspect the latest failing GitHub Actions run and the workflow files it executed. Separate flaky or environmental failures from reproducible configuration and code failures. Propose the smallest fix, pin or update action versions only with evidence, run local validation where possible, and leave generated or unrelated workflow files unchanged."
+    },
+    {
+        "name": "TDD red-green-refactor loop (/tdd)",
+        "slug": "tdd-red-green-refactor",
+        "category": "testing",
+        "desc": "A compact command that turns a feature or bug fix into a test-first red-green-refactor cycle with explicit evidence at each stage.",
+        "tool": "Agnostic coding agent",
+        "author": "GitHub Copilot community (adapted)",
+        "source": "https://github.com/github/awesome-copilot/blob/main/agents/tdd-red.agent.md",
+        "instructions": "Translate the request into a focused behavioral test. Add the test and run it to confirm the expected failure, implement the smallest change that makes it pass, then refactor without changing behavior. Run the focused test and the relevant broader suite, and stop if the failure does not match the hypothesis."
     }
 ]
 
@@ -68,6 +99,7 @@ def main():
 - **Author**: {item['author']}
 - **License**: MIT
 - **Date Added**: {today_str}
+- **Last Reviewed**: {today_str}
 
 ## Command Instruction
 ```markdown

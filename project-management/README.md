@@ -20,4 +20,6 @@ project-management/
 
 ## Entries
 
-_No entries yet — be the first to contribute!_
+| Entry | Description |
+|---|---|
+| [Address review comments (/address-comments)](address-review-comments/) | A review-loop command that gathers unresolved comments, maps each to the current diff, and proposes or applies bounded fixes with verification. |

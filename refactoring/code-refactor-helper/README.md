@@ -9,7 +9,8 @@ Command to analyze code style, performance, and formatting, suggesting drop-in r
 - **Source URL**: [https://github.com/google-gemini/gemini-cli](https://github.com/google-gemini/gemini-cli)
 - **Author**: Codex CLI
 - **License**: MIT
-- **Date Added**: 2026-06-21
+- **Date Added**: 2026-08-04
+- **Last Reviewed**: 2026-08-04
 
 ## Command Instruction
 ```markdown
