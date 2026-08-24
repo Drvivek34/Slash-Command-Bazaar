@@ -22,3 +22,4 @@ ai-prompts/
 
 | Entry | Description |
 |---|---|
+| [Web Search Command](web-search-command/) | Runs a live web search with provider fallback (Tavily → Exa → Firecrawl → Brave → Serper → Google CSE), free-tier quota awareness, and a results table. |

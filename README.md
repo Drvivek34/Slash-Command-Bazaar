@@ -10,6 +10,8 @@ Slash Command Bazaar collects **slash commands** — reusable `/command` definit
 - **7 maintained commands** are indexed with target tool, source, author, license, date added, and last-reviewed date.
 - Refreshed **2026-08-04** with review-comment triage, CI workflow maintenance, and TDD loop commands adapted from current GitHub Copilot community sources.
 
+- Added **2026-08-24**: [web-search-command](ai-prompts/web-search-command/) — /web-search slash command wiring Claude Code to Tavily/Exa/Firecrawl/Brave/Serper/Google CSE with verified free-tier limits and automatic provider fallback.
+
 ## 📂 Categories
 
 **[⭐ Featured](featured/)** — top picks, surfaced at the very front.
